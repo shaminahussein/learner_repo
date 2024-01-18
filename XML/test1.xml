@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xslstyle.xsl"?>
+<catalogue>
+    <product>
+        <title>X-Men 1</title>
+        <description>A very very expensive comic</description>
+        <publisher>Marvel</publisher>
+        <price>10000</price>
+    </product>
+    <product>
+        <title>Avengers 1</title>
+        <description>A very very expensive comic</description>
+        <publisher>Marvel</publisher>
+        <price>8000</price>
+    </product>
+    <product>
+        <title>Batman 1</title>
+        <description>A very very expensive comic</description>
+        <publisher>DC</publisher>
+        <price>40000</price>
+    </product>
+    <product>
+        <title>Superman 1</title>
+        <description>A very very expensive comic</description>
+        <publisher>DC</publisher>
+        <price>35000</price>
+    </product>
+        <product>
+        <title>Green Lantern 1</title>
+        <description>An expensive comic</description>
+        <publisher>DC</publisher>
+        <price>5000</price>
+    </product>
+    <product>
+        <title>The Uncanny X-Men 1</title>
+        <description>A very very expensive comic</description>
+        <publisher>Marvel</publisher>
+        <price>80000</price>
+    </product>
+</catalogue>
