@@ -12,4 +12,16 @@
         <plot></plot>
         <cast></cast>
     </movie>
+        <movie>
+        <main_title></main_title>
+        <subtitle></subtitle>
+        <original_title></original_title>
+        <year_released></year_released>
+        <rating></rating>
+        <movie_length></movie_length>
+        <director></director>
+        <writer></writer>
+        <plot></plot>
+        <cast></cast>
+    </movie>
 </films>
