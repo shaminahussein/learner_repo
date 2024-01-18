@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <films>
     <movie>
-        <main_title></main_title>
-        <subtitle></subtitle>
-        <original_title></original_title>
-        <year_released></year_released>
-        <rating></rating>
-        <movie_length></movie_length>
-        <director></director>
-        <writer></writer>
-        <plot></plot>
-        <cast></cast>
+        <main_title>Star Wars: Episode IV - A New Hope</main_title>
+        <subtitle>Episode IV - A New Hope</subtitle>
+        <original_title>Star Wars</original_title>
+        <year_released>1977</year_released>
+        <rating>PG</rating>
+        <movie_length>2hr 1min</movie_length>
+        <director>George Lucas</director>
+        <writer>George Lucas</writer>
+        <plot>
+        Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+        </plot>
+        <cast>Mark Hamill, Harrison Ford, Carrie Fisher</cast>
     </movie>
-        <movie>
-        <main_title></main_title>
-        <subtitle></subtitle>
-        <original_title></original_title>
-        <year_released></year_released>
-        <rating></rating>
-        <movie_length></movie_length>
-        <director></director>
-        <writer></writer>
-        <plot></plot>
-        <cast></cast>
+    <movie>
+        <main_title>Star Wars: Episode V - The Empire Strikes Back</main_title>
+        <subtitle>Episode V - The Empire Strikes Back</subtitle>
+        <original_title>Star Wars</original_title>
+        <year_released>1980</year_released>
+        <rating>PG</rating>
+        <movie_length>2hr 4min</movie_length>
+        <director>George Lucas</director>
+        <writer>George Lucas</writer>
+        <plot>After the Rebels are overpowered by the Empire, Luke Skywalker begins his Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.</plot>
+        <cast>Mark Hamill, Harrison Ford, Carrie Fisher</cast>
     </movie>
 </films>
