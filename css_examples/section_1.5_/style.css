@@ -1,6 +1,6 @@
 /* Styles */
 *{margin:0; box-sizing: border-box; overflow-x: hidden;}
-.wrapper{width: 100vw; height: 100vh; background-color: aliceblue;}
+.wrapper{width: 100vw; min-height: 100vh; background-color: aliceblue;}
 
 /*header */
 .header{width: 100vw; height: 10vh;}
@@ -26,3 +26,10 @@ a:hover{color: rgb(153,68,68);}
 .cta-text{width: 40vw;height: 40vh; margin: auto auto; margin-top: 23vh; background-color: indianred;}
 .row{width: 50vw; height: 16vh; margin: 1.4vh 0vw; }
 .box{width: 10vw; height: 14vh; margin: 1vh 1vw;background-color: gray; float: left;}
+
+/*Services Page*/
+.cta-services{width: 30vw; height: 30vh; background-color: indianred;margin: 0 auto;}
+.tall-columns{width: 80vw; height: 60vh; margin: 0 auto;}
+.tc-1{width: 20vw; height: 50vh; background-color: darkslategray; float: left; margin: 5vh 3vw;}
+.small-columns{width: 80vw; height: 28vh; margin: 0 auto;}
+.sc-1{width: 20vw; height: 24vh; background-color: indianred; float: left;margin: 2vh 3vw;}
