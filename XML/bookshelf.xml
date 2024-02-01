@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE bookshelf[
+<!ELEMENT bookshelf (book)+>
+<!ATTLIST bookshelf xlms CDATA #FIXED ''>
+<!ELEMENT book (title,author,review,rating)>
+<!ATTLIST book xlmns CDATA #FIXED '' id CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title xmlns CDATA #FIXED ''>
+<!ELEMENT author (#PCDATA)>
+<!ATTLIST author xmlns CDATA #FIXED ''>
+<!ELEMENT review (#PCDATA)>
+<!ATTLIST review xmlns CDATA #FIXED ''>
+<!ELEMENT rating (#PCDATA)>
+<!ATTLIST rating xmlns CDATA #FIXED ''>
+]>
+<bookshelf>
+    <book id ="001">
+        <title>Magician</title>
+        <author_name>Raymond E. Fiest</author_name>
+        <review>Amazing</review>
+        <rating>5</rating>
+    </book>
+</bookshelf>
