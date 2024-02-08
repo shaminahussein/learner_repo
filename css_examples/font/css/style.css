@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.wrapper
+{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right,black 0%,black 60%, #1893F8 60%, #1893F8 100%);
+    color: white;
+}
+.nav
+{
+    width: 100vw;
+    height: 5vh;
+}
+
+a
+{
+    font-size: 1.4em;
+    margin: 1vh 3vw;
+    color: white;
+    text-decoration: none;
+}
+a:hover
+{
+    color: rgb(138, 135, 135);
+}
+.content
+{
+    width: 100vw;
+    height: 50vh;
+    margin-top: 20vh;
+}
+.left
+{
+    width: 50vw;
+    height: 50vh;
+    float: left;
+}
+.right
+{
+    width: 50vw;
+    height: 50vh;
+    float: right;
+}
+.cta-text
+{
+    width: 40vw;
+    height: 40vh;
+    margin: 5vh auto;
+}
+.ct-large
+{
+    width: 40vw;
+    height: 30vh;
+    font-size: 5em;
+}
+.ct-small
+{
+    width: 40vw;
+    height: 10vh;
+    font-size: 2em;
+}
+.row
+{
+    width: 50vw;
+    height: 18vh;
+    margin: 4vh 0vw;
+}
+.box
+{
+    width: 21vw;
+    height: 18vh;
+    background-color: white;
+    margin: 0vh 2vw;
+    float: left;
+    border-radius: 25px;
+    color: black;
+}
+.sm-box
+{
+    width: 15vw;
+    font-size: .7em;
+}
+.box h3
+{
+    margin: 1em;
+    font-size: 1.5em;
+}
+.box p
+{
+    margin: .5em;
+}
