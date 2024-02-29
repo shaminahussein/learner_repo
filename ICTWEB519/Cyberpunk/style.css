@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: black;
+}
+
+.header
+{
+    width: 100vw;
+    height: 15vh;
+}
+
+.logo
+{
+    width: 20vw;
+    height: 15vh;
+    float: left;
+}
+
+.navigation
+{
+    width: 50vw;
+    height: 10vh;
+    background-color: rgb(49, 143, 140);
+    float: right;
+}
+
+.sep
+{
+    width: 100vw;
+    height: 1vh;
+    background-color: black;
+}
+
+.content
+{
+    width: 100vw;
+    height: 73vh;
+    background-color: white;
+}
+
+footer
+{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(233, 217, 202);
+}
