@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout: Flex</title>
+    <style>
+        *{margin: 0;padding: 0;box-sizing: border-box;}
+        .flex-content{
+            display: flex;
+            justify-content: space-evenly;
+            flex: wrap;
+            /* flex-direction: column; */
+            height: 100vh;
+            background-color: rgb(209, 208, 208);
+        }
+
+        .box{width: 20vw; height: 20vh;}
+        .cb{background-color: cadetblue;}
+        .red{background-color: red;}
+        .ch{background-color: chocolate;}
+    </style>
+</head>
+<body>
+    <div class="flex-content">
+        <div class="box cb"></div>
+        <div class="box red"></div>
+        <div class="box ch"></div>
+        <div class="box cb"></div>
+        <div class="box ch"></div>
+        <div class="box cb"></div>
+        <div class="box red"></div>        
+    </div>
+    
+</body>
+</html>

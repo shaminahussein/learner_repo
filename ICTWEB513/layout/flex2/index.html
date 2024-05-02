@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout: Flex</title>
+    <style>
+        *{margin: 0;padding: 0;box-sizing: border-box;}
+        .flex-content-header{
+            display: flex;
+            justify-content: start;
+            height: 15vh;
+            width: 100vw;
+            background-color: azure;
+        }
+
+        .flex-content-cta{
+            display: flex;
+            height: 50vh;
+            width: 100vw;
+            background-color: gold;
+        }
+
+        .flex-content-blurb{
+            display: flex;
+            justify-content: space-evenly;
+            height: 30vh;
+            width: 100vw;
+            background-color: azure;
+        }
+
+        .flex-content-footer{
+            display: flex;
+            justify-content: end;
+            height: 5vh;
+            width: 100vw;
+            background-color: crimson;
+            font-size: 1.2em;
+            color: white;
+            padding-right: 2em;
+        }
+
+        .image-size{
+            width: 100vw;
+            object-fit: cover;
+        }
+
+        .blurb{
+            width: 20vw;
+            margin-top: 2em;
+            text-align: justify;
+            font-size: 1.3em;
+            line-height: 1.5em;
+        }
+
+        .logo-size{
+            height: 15vh;
+            object-fit: contain;
+            margin-right: 20vw;
+            border-top-right-radius: 15px;
+        }
+
+        .title{
+            font-size: 3em;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-right: 20vw;
+        }
+
+        nav ul li{
+            list-style: none;
+            float: left;
+        }
+
+        nav ul li a{
+            font-size: 1.8em;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin-right: 2vw;
+            color: crimson;
+            text-decoration: none;
+        }
+
+        @media screen and (max-width:600px) {
+            .flex-content-header{
+                flex-direction: column;
+                height: fit-content;
+            }
+
+            .flex-content-footer{
+                flex-direction: column;
+                height: fit-content;              
+            }
+
+            .flex-content-blurb{
+                flex-direction: column;
+                height: fit-content;
+                width: 100vw;
+            }
+
+            .blurb{
+                width: 90vw;
+                margin: 2vh auto;
+            }
+
+            .logo-size{
+                height: fit-content;
+                width: 100vw;
+                margin-right: 0vw;
+                object-fit: contain;
+                border-radius: 0;
+            }
+
+            .title{
+                font-size: 2em;
+                margin: 1em auto;
+            }
+
+            nav ul li a{
+                margin-left: 12vw;
+            }
+        }
+    </style>
+</head>
+<body>
+        <div class="flex-content-header">
+            <div class="logo">
+                <img src="images/pexels-pixabay-301614.jpg" alt="" class="logo-size">
+            </div>
+            <div class="title">Awesome Page Name</div>
+            <nav>
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+            </nav>
+        </div>
+        <div class="flex-content-cta">
+            <img src="images/pexels-tomáš-malík-3408354.jpg" alt="" class="image-size">
+        </div>
+        <div class="flex-content-blurb">
+            <div class="blurb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus amet consequatur explicabo sapiente voluptatibus expedita, qui ea dolore quo eaque et nulla aspernatur id. Reiciendis, rerum. Repellat est cum vitae?</div>
+            <div class="blurb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas a deleniti inventore iusto. Provident atque saepe quisquam aliquid velit, itaque quas corporis in, aut voluptates deserunt corrupti consequatur! Ullam, at.</div>
+            <div class="blurb">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde est tempora aspernatur aliquam dicta nesciunt soluta ipsum impedit illum deleniti voluptatum rem, expedita non, rerum consectetur. Totam modi sint ratione.</div>
+        </div>
+        <div class="flex-content-footer">&copy;2021</div>
+</body>
+</html>

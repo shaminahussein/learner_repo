@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* The box-sizing property allows us to include the padding and border in an element's total width and height.*/
+        }
+
+        .grid-content{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
+            width: 100vw;
+            height: 100vh;
+        }
+            
+        .box1{grid-area: 1/1/2/2;}
+        .box2{grid-area: 1/2/2/3;}
+        .box3{grid-area: 1/3/2/4;}
+        .box4{grid-area: 2/1/3/2;}
+        .box5{grid-area: 2/2/3/3;}
+        .box6{grid-area: 2/3/3/4;}
+        .box7{grid-area: 3/1/4/2;}
+        .box8{grid-area: 3/2/4/3;}
+        .box9{grid-area: 3/3/4/4;}
+
+        .grid-small{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 4fr 2fr 1fr;
+            width: 80%;
+            height: 100%;
+            margin: 0 auto;
+        }
+
+        .gs-image{grid-area: 1/1/2/2;}
+        .gs-text{grid-area: 2/1/3/2;font-size: 1em; line-height: 1em;}
+        .gs-cta{grid-area: 3/1/4/2; text-align: center; margin-top: .2em;}
+        .gs-cta a{text-decoration: none; font-size: 1em; color: tomato;}
+
+        .grid-image{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-content">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5">
+            <div class="grid-small">
+                <div class="gs-image">
+                    <img src="images/pexels-tomáš-malík-3408354.jpg" alt="" class="grid-image">
+                </div>
+                <div class="gs-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam laborum dignissimos totam accusamus vel tempore incidunt sed maxime. Dolor quod inventore corporis labore ratione veritatis laudantium nesciunt quo sit soluta.
+                </div>
+                <div class="gs-cta">
+                    <a href="#">Link to something</a>
+                </div>
+            </div>
+        </div>
+        <div class="box6"></div>
+        <div class="box7"></div>
+        <div class="box8"></div>
+        <div class="box9"></div>
+    </div>
+</body>
+</html>

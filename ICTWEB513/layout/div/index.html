@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout [divs and floats]</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        main{
+            width: 100vw;
+            height: 100vw;
+            background-color: rgb(118, 185, 187);
+        }
+
+        nav{
+            width: 100vw;
+            height: 10vw;
+            background-color: rgb(179, 134, 103);
+        }
+
+        .leftCol{
+            width: 70vw;
+            height: 85vh;
+            background-color: white;
+            float: left;
+        }
+
+        .rightCol{
+            width: 30vw;
+            height: 85vh;
+            background-color: rgb(185, 161, 116);
+            text-align: justify;
+            float: right;
+        }
+        footer{
+            clear: both;
+            width: 100vw;
+            height: 5vh;
+            background-color: rgb(185, 131, 122);
+        }
+        aside{
+            width: 40%;
+            padding-left: .5rem;
+            margin-left: .5rem;
+            float: right;
+            box-shadow: inset 5px 0 5px -5px #29627e;
+            font-style: italic;
+            color: #225874;
+            margin: .5em;
+        }
+
+        p{
+            margin: 1em;
+            font-size: 1.3em;
+            line-height: 1.5em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .rText{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: .9em;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <nav>Link link</nav>
+        <article class="leftCol">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque cumque laudantium molestiae eveniet est ipsam ratione saepe nesciunt et ducimus. Dignissimos vitae asperiores commodi eius, sunt eligendi quisquam magnam excepturi.
+            </p>
+            <aside>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            </aside>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eius magni soluta, cupiditate natus, perferendis consequuntur repellat corrupti voluptatem necessitatibus architecto inventore dolores quas voluptas impedit velit odit autem consequatur.
+            </p>
+        </article>
+        <section class="rightCol">
+            <p class="rText">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nostrum rerum odio tenetur perspiciatis vitae totam corporis labore distinctio dolores laudantium voluptas asperiores accusamus enim consequuntur at nobis, ullam et.
+            </p>
+            <p class="rText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ad voluptatem sit, reprehenderit iusto debitis saepe sequi provident ipsum distinctio cum ea veniam odit dolorum vero modi at cupiditate laboriosam!
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque quas! Nisi eum sint quasi minus fugit consequuntur esse, unde asperiores ipsam dignissimos consectetur vitae iusto culpa earum obcaecati inventore.
+            </p>
+            <p class="rText">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit suscipit fugiat, aut optio culpa nulla dolore quibusdam natus quaerat! Esse obcaecati adipisci tempora nostrum, vero commodi sequi? Earum, numquam culpa!
+            </p>
+        </section>
+        <footer>This is the footer</footer>
+    </main>
+    
+</body>
+</html>
