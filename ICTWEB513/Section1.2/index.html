@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .imgPos{float:left;}
+        img{width:40vw;}
+        .stats{width:20vw; margin:2em; float:left;}
+        .controls{clear:both;}
+        #message{display:none;}
+    </style>
+</head>
+<body>
+    <div class="imgPos">
+        <img src="pgo.png" alt="pgo">
+    </div>
+    <div class="stats">
+        <h4>Golduck</h4>
+        <ul>
+            <li>Health: <span id="gHealth">100</span></li>
+            <li>Attack:20</li>
+            <li>Defence:15</li>
+        </ul>
+        <h4>Pickachu</h4>
+        <ul>
+            <li>Health:100</li>
+            <li>Attack:25</li>
+            <li>Defence:12</li>
+        </ul>
+    </div>
+    <div class="controls">
+        <h5>Pickachu Attack</h5>
+        <button id="pAttack" value = "Attack">Attack</button>
+        <p id="message">You have defeated Golduck!</p>
+    </div>
+
+    <script>
+        var golduckHealth = 100;
+        var pickachuHealth = 100;
+
+        document.getElementById("pAttack").addEventListener("click", pickachuAttack);
+
+        function pickachuAttack(){
+            let pAtt = 25;
+            golduckHealth = golduckHealth - pAtt;
+            updateHealth();
+        }
+
+        function updateHealth(){
+            let gh = golduckHealth.toString();
+            console.log(gh);
+            document.getElementById("gHealth").innerHTML = gh;
+            if(gh ==0){
+                document.getElementById("pAttack").style.display = 'none';
+                document.getElementById("message").style.display = 'block';               
+            }
+        }
+
+    </script>
+    
+</body>
+</html>
