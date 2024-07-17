@@ -1,0 +1,1 @@
+copy the files in this folder and place it in htdocs (C:\xampp\htdocs) on your computer.
